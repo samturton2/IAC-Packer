@@ -18,3 +18,8 @@ sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(l
 ```bash
 sudo apt-get update && sudo apt-get install packer
 ```
+- Check packer has downloaded by using the command `packer`
+![](img/checkinstall.png)
+
+## Creating a packer file
+Packer works with jazon format which is essentially a dictionary. 
