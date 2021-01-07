@@ -4,7 +4,7 @@
 
 Packer is another Infrastructure as Code tool, which we can use to create an image of a environment. It is very useful when scaling up our infrastructure, as it is far quicker to create environments with a saved image, instead of provisioning each new environment.
 
-## Seting up Packer
+## Setting up Packer
 - If on linux, you can use the following commands:
 - Add the key
 ```shell
@@ -22,4 +22,4 @@ sudo apt-get update && sudo apt-get install packer
 ![](img/checkinstall.png)
 
 ## Creating a packer file
-Packer works with jazon format which is essentially a dictionary. 
+Packer works with json format which is essentially a dictionary.
